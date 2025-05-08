@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tfP8Gt3Hhjai6eAt8KQzfzIJAkFIBweTaPKxSKDtiBY=",
+  "Source": "TaskManagentment.UI",
+  "BasePath": "_content/TaskManagentment.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

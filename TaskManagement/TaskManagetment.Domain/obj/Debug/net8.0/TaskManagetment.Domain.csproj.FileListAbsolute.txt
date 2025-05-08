@@ -1,0 +1,11 @@
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\bin\Debug\net8.0\TaskManagetment.Domain.deps.json
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\bin\Debug\net8.0\TaskManagetment.Domain.dll
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\bin\Debug\net8.0\TaskManagetment.Domain.pdb
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\TaskManagetment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\TaskManagetment.Domain.AssemblyInfoInputs.cache
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\TaskManagetment.Domain.AssemblyInfo.cs
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\TaskManagetment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\TaskManagetment.Domain.dll
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\refint\TaskManagetment.Domain.dll
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\TaskManagetment.Domain.pdb
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagetment.Domain\obj\Debug\net8.0\ref\TaskManagetment.Domain.dll
