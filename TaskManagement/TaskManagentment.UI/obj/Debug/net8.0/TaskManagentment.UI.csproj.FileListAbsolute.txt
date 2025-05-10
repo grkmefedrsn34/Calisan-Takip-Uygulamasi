@@ -171,3 +171,7 @@ C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\Ta
 C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagentment.UI\obj\Debug\net8.0\TaskManagentment.UI.pdb
 C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagentment.UI\obj\Debug\net8.0\TaskManagentment.UI.genruntimeconfig.cache
 C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagentment.UI\obj\Debug\net8.0\ref\TaskManagentment.UI.dll
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagentment.UI\bin\Debug\net8.0\libman.json
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagentment.UI\bin\Debug\net8.0\TaskManagentment.UI.staticwebassets.runtime.json
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagentment.UI\obj\Debug\net8.0\TaskManagentment.UI.RazorAssemblyInfo.cache
+C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagentment.UI\obj\Debug\net8.0\TaskManagentment.UI.RazorAssemblyInfo.cs

@@ -24,4 +24,8 @@
     <ProjectReference Include="..\TaskManagentment.Application\TaskManagentment.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>
