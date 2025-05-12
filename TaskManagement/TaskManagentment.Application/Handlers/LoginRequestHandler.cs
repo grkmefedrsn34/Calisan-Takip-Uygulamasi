@@ -3,7 +3,8 @@ using TaskManagentment.Application.DTOs;
 using TaskManagentment.Application.Interfaces;
 using TaskManagentment.Application.Request;
 using TaskManagentment.Application.Validation;
-using TaskManagentment.Application.Extensions; // ToMap() extension metodu için gerekli
+using TaskManagentment.Application.Extensions;
+using TaskManagentment.Application.Enums; // ToMap() extension metodu için gerekli
 
 namespace TaskManagentment.Application.Handlers
 {
@@ -23,12 +24,16 @@ namespace TaskManagentment.Application.Handlers
 
             if (validationResult.IsValid)
             {
-                var user = await _userRepository.GetByFilter(x => x.Password == request.Password && x.UserName == request.Username);
+
+                var user = await _userRepository.GetByFilterAsync(x => x.Password == request.Password && x.UserName == request.Username);
+
+                
 
                 if (user != null)
                 {
+                    var type = (RoleType)user.AppRoleID;
                     return new Response<LoginResponseData>(
-                        new LoginResponseData(user.Name, user.Surname, user.AppRoleID),
+                        new LoginResponseData(user.Name, user.Surname, type),
                         true,
                         null,
                         null);

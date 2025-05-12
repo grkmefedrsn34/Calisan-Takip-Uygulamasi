@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskManagement.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78cc32733931065be4b4db43e5c2e3acc193548a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c52e5009b13137e3028574d902c6ce65917e4cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskManagement.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskManagement.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

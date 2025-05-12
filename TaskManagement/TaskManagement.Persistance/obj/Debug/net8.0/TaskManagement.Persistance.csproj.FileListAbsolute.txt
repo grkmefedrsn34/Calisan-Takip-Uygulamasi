@@ -15,3 +15,21 @@ C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\Ta
 C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\refint\TaskManagement.Persistance.dll
 C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.pdb
 C:\Users\gokhan\Documents\GitHub\Çalıştan Takip Uygulaması\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\ref\TaskManagement.Persistance.dll
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.csproj.AssemblyReference.cache
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.AssemblyInfoInputs.cache
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.AssemblyInfo.cs
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.sourcelink.json
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.dll
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\refint\TaskManagement.Persistance.dll
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskManagement.Persistance.pdb
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\bin\Debug\net8.0\TaskManagement.Persistance.deps.json
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\bin\Debug\net8.0\TaskManagement.Persistance.dll
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\bin\Debug\net8.0\TaskManagement.Persistance.pdb
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\bin\Debug\net8.0\TaskManagentment.Application.dll
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\bin\Debug\net8.0\TaskManagetment.Domain.dll
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\bin\Debug\net8.0\TaskManagentment.Application.pdb
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\bin\Debug\net8.0\TaskManagetment.Domain.pdb
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\TaskMana.2427DD19.Up2Date
+C:\Users\gokhan\Documents\GitHub\Employee-Tracking-Application\TaskManagement\TaskManagement.Persistance\obj\Debug\net8.0\ref\TaskManagement.Persistance.dll

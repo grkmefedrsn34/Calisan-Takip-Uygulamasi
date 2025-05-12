@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Linq.Expressions;
 using TaskManagement.Persistance.Context;
 using TaskManagetment.Domain.Entities;
@@ -25,6 +23,11 @@ namespace TaskManagement.Persistance.Repository
             }
             return await _context.AppUsers.SingleOrDefaultAsync(filter);
         }
+
+        public async Task<int> CreateUserAsync(AppUser user)
+        {
+            _context.AppUsers.Add(user);
+            return await _context.SaveChangesAsync(); // dönüş tipi int
+        }
     }
 }
-

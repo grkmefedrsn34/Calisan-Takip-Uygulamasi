@@ -1,12 +1,11 @@
-﻿using System;
-using System.Linq.Expressions;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using TaskManagetment.Domain.Entities;
 
 namespace TaskManagentment.Application.Interfaces
 {
     public interface IUserRepository
     {
-        Task<AppUser?> GetByFilter(Expression<Func<AppUser, bool>> filter, bool asNoTracking = true);
+        Task<AppUser?> GetByFilterAsync(System.Linq.Expressions.Expression<System.Func<AppUser, bool>> filter, bool asNoTracking = true);
+        Task<int> CreateUserAsync(AppUser user);
     }
 }

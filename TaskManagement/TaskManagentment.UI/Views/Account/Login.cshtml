@@ -1,4 +1,6 @@
-﻿@{
+﻿@model TaskManagentment.Application.Request.AccountRequest
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
     Layout = null;
 }
 
@@ -16,18 +18,28 @@
             </div>
             <form action="/Account/Login" class="form-floating mt-3" method="post">
                 <div class="mb-3 form-floating">
-                    <input type="text" class="form-control" id="Username" placeholder="User Name" />
+                    <input type="text" class="form-control" asp-for="Username" placeholder="User Name" />
                     <label for="Username">Username</label>
                 </div>
 
                 <div class="mb-3 form-floating">
-                    <input type="password" class="form-control" id="Password" placeholder="Password" />
+                    <input type="password" class="form-control" asp-for="Password" placeholder="Password" />
                     <label for="Password">Password</label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" checked="@Model.rememberMe" asp-for="rememberMe" />
+                    <label class="form-check-label" for="RememberMe">
+                        Remember me
+                    </label>
                 </div>
 
                 <div class="form-floating mb-3 d-grid gap-2">
                     <button class="btn btn-lg btn-primary" type="submit">Login</button>
                     <button class="btn btn-lg btn-info text-white" type="submit">Registar</button>
+                </div>
+                <div class="text-danger lead" asp-validation-summary="All">
+
                 </div>
             </form>
             </div> 

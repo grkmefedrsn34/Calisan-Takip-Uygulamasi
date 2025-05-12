@@ -1,46 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{382E9839-45DF-426A-9292-4EDDA70F6A3B}|TaskManagement.Persistance\\TaskManagement.Persistance.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagement.persistance\\iocextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{382E9839-45DF-426A-9292-4EDDA70F6A3B}|TaskManagement.Persistance\\TaskManagement.Persistance.csproj|solutionrelative:taskmanagement.persistance\\iocextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{382E9839-45DF-426A-9292-4EDDA70F6A3B}|TaskManagement.Persistance\\TaskManagement.Persistance.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagement.persistance\\repository\\userrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{382E9839-45DF-426A-9292-4EDDA70F6A3B}|TaskManagement.Persistance\\TaskManagement.Persistance.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagement.persistance\\repository\\userrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{382E9839-45DF-426A-9292-4EDDA70F6A3B}|TaskManagement.Persistance\\TaskManagement.Persistance.csproj|solutionrelative:taskmanagement.persistance\\repository\\userrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.application\\dtos\\accountdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\dtos\\accountdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\handlers\\registarrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\handlers\\registarrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.ui\\controllers\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\controllers\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\handlers\\loginrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\handlers\\loginrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\validation\\registarrequestvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\validation\\registarrequestvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\validation\\loginrequestvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\validation\\loginrequestvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\request\\accountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\request\\accountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\dtos\\accountdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\dtos\\accountdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\dtos\\applicationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\dtos\\applicationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.ui\\controllers\\admin\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\controllers\\admin\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.application\\enums\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5558EB59-B265-47F3-ACE9-C50FC5CF7E91}|TaskManagentment.Application\\TaskManagentment.Application.csproj|solutionrelative:taskmanagentment.application\\enums\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\employee-tracking-application\\taskmanagement\\taskmanagentment.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|c:\\users\\gokhan\\documents\\github\\\u00E7al\u0131\u015Ftan takip uygulamas\u0131\\taskmanagement\\taskmanagentment.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE615B81-7491-4F6E-BB73-AD05A69158A1}|TaskManagentment.UI\\TaskManagentment.UI.csproj|solutionrelative:taskmanagentment.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +66,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IOCExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagement.Persistance\\IOCExtensions.cs",
-              "RelativeDocumentMoniker": "TaskManagement.Persistance\\IOCExtensions.cs",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagement.Persistance\\IOCExtensions.cs",
-              "RelativeToolTip": "TaskManagement.Persistance\\IOCExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:52:57.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRepositary.cs",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagement.Persistance\\Repository\\UserRepositary.cs",
-              "RelativeDocumentMoniker": "TaskManagement.Persistance\\Repository\\UserRepositary.cs",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagement.Persistance\\Repository\\UserRepositary.cs",
-              "RelativeToolTip": "TaskManagement.Persistance\\Repository\\UserRepositary.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:16:59.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.Application\\Interfaces\\IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "TaskManagentment.Application\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "TaskManagentment.Application\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:15:38.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountDtos.cs",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.Application\\DTOs\\AccountDtos.cs",
-              "RelativeDocumentMoniker": "TaskManagentment.Application\\DTOs\\AccountDtos.cs",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.Application\\DTOs\\AccountDtos.cs",
-              "RelativeToolTip": "TaskManagentment.Application\\DTOs\\AccountDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:11:54.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "TaskManagentment.UI\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "TaskManagentment.UI\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T12:24:46.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Program.cs",
-              "RelativeDocumentMoniker": "TaskManagentment.UI\\Program.cs",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Program.cs",
-              "RelativeToolTip": "TaskManagentment.UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T11:52:54.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "TaskManagentment.UI\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "TaskManagentment.UI\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T11:50:34.948Z",
+              "WhenOpened": "2025-05-12T12:36:34.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "TaskManagentment.UI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "TaskManagentment.UI\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Title": "LoginRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Handlers\\LoginRequestHandler.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\Handlers\\LoginRequestHandler.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Handlers\\LoginRequestHandler.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\Handlers\\LoginRequestHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T11:48:29.51Z",
+              "WhenOpened": "2025-05-12T12:06:01.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistarRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Handlers\\RegistarRequestHandler.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\Handlers\\RegistarRequestHandler.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Handlers\\RegistarRequestHandler.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\Handlers\\RegistarRequestHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA/wCYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:06:14.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistarRequestValidation.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Validation\\RegistarRequestValidation.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\Validation\\RegistarRequestValidation.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Validation\\RegistarRequestValidation.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\Validation\\RegistarRequestValidation.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBMAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:04:30.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepositary.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagement.Persistance\\Repository\\UserRepositary.cs",
+              "RelativeDocumentMoniker": "TaskManagement.Persistance\\Repository\\UserRepositary.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagement.Persistance\\Repository\\UserRepositary.cs",
+              "RelativeToolTip": "TaskManagement.Persistance\\Repository\\UserRepositary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T08:25:17.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Controllers\\Account\\AccountController.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.UI\\Controllers\\Account\\AccountController.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Controllers\\Account\\AccountController.cs",
+              "RelativeToolTip": "TaskManagentment.UI\\Controllers\\Account\\AccountController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAA+wFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:17:07.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRequestValidation.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Validation\\LoginRequestValidation.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\Validation\\LoginRequestValidation.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Validation\\LoginRequestValidation.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\Validation\\LoginRequestValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T12:04:13.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountRequest.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Request\\AccountRequest.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\Request\\AccountRequest.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Request\\AccountRequest.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\Request\\AccountRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T10:13:29.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TaskManagentment.UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TaskManagentment.UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TaskManagentment.UI\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "TaskManagentment.UI\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T11:47:59.556Z",
+              "WhenOpened": "2025-05-12T10:07:35.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TaskManagentment.UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\\u00C7al\u0131\u015Ftan Takip Uygulamas\u0131\\TaskManagement\\TaskManagentment.UI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TaskManagentment.UI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Title": "AccountDtos.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\DTOs\\AccountDtos.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\DTOs\\AccountDtos.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\DTOs\\AccountDtos.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\DTOs\\AccountDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T11:46:29.638Z",
+              "WhenOpened": "2025-05-12T10:02:18.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Controllers\\Admin\\HomeController.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.UI\\Controllers\\Admin\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Controllers\\Admin\\HomeController.cs",
+              "RelativeToolTip": "TaskManagentment.UI\\Controllers\\Admin\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:54:05.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoleType.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Enums\\RoleType.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\Enums\\RoleType.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\Enums\\RoleType.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\Enums\\RoleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:46:14.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\Program.cs",
+              "RelativeToolTip": "TaskManagentment.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T08:37:03.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationModels.cs",
+              "DocumentMoniker": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\DTOs\\ApplicationModels.cs",
+              "RelativeDocumentMoniker": "TaskManagentment.Application\\DTOs\\ApplicationModels.cs",
+              "ToolTip": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.Application\\DTOs\\ApplicationModels.cs",
+              "RelativeToolTip": "TaskManagentment.Application\\DTOs\\ApplicationModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:02:48.038Z",
               "EditorCaption": ""
             }
           ]
