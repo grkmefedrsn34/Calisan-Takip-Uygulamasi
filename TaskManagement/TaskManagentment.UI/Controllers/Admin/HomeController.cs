@@ -11,5 +11,10 @@ namespace TaskManagentment.UI.Controllers.Admin
         {
             return View();
         }
+
+        public IActionResult Index2()
+        {
+            return View();
+        }
     }
 }

@@ -20,6 +20,7 @@ namespace TaskManagement.Persistance
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPriorityRepository, PriorityRepository>();
 
         }
 

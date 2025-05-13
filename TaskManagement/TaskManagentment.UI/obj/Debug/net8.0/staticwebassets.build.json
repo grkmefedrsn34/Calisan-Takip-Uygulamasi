@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZcErKkP4cSSJYNXhZwGb/Bbrt6wna03AOecZhsx9FUU=",
+  "Hash": "/YGUTXoxIV7gW+7qgU8/HKhTPBcm1zK2nupnuTj21Fw=",
   "Source": "TaskManagentment.UI",
   "BasePath": "_content/TaskManagentment.UI",
   "Mode": "Default",
@@ -16,6 +16,90 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\assets\\favicon.ico",
+      "SourceId": "TaskManagentment.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\",
+      "BasePath": "_content/TaskManagentment.UI",
+      "RelativePath": "thema/assets/favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "devepoo3hg",
+      "Integrity": "ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thema\\assets\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\css\\styles.css",
+      "SourceId": "TaskManagentment.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\",
+      "BasePath": "_content/TaskManagentment.UI",
+      "RelativePath": "thema/css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ghmlgil8sq",
+      "Integrity": "7LIksA5MB0DLUVWHRLb6lyhDrhcePBl+Yoe/GZ37ndE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thema\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\index.html",
+      "SourceId": "TaskManagentment.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\",
+      "BasePath": "_content/TaskManagentment.UI",
+      "RelativePath": "thema/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h2re3ixa3c",
+      "Integrity": "d4RWUXxztN6YVWWNlmZvnw/5rJGSiQBjVulfVJS8zzs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thema\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\js\\scripts.js",
+      "SourceId": "TaskManagentment.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\",
+      "BasePath": "_content/TaskManagentment.UI",
+      "RelativePath": "thema/js/scripts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6sm9j76k80",
+      "Integrity": "lqo3ngqGYvYInvHyWctyi5qlYtMnAXuJ021uTr3Ev2U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\thema\\js\\scripts.js"
+    },
     {
       "Identity": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\twitter-bootstrap\\css\\bootstrap.css",
       "SourceId": "TaskManagentment.UI",
@@ -2874,6 +2958,334 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "thema/assets/favicon.devepoo3hg.ico",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "thema/assets/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "thema/assets/favicon.ico",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "thema/css/styles.css",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7LIksA5MB0DLUVWHRLb6lyhDrhcePBl+Yoe/GZ37ndE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7LIksA5MB0DLUVWHRLb6lyhDrhcePBl+Yoe/GZ37ndE="
+        }
+      ]
+    },
+    {
+      "Route": "thema/css/styles.ghmlgil8sq.css",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7LIksA5MB0DLUVWHRLb6lyhDrhcePBl+Yoe/GZ37ndE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ghmlgil8sq"
+        },
+        {
+          "Name": "label",
+          "Value": "thema/css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7LIksA5MB0DLUVWHRLb6lyhDrhcePBl+Yoe/GZ37ndE="
+        }
+      ]
+    },
+    {
+      "Route": "thema/index.h2re3ixa3c.html",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4RWUXxztN6YVWWNlmZvnw/5rJGSiQBjVulfVJS8zzs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h2re3ixa3c"
+        },
+        {
+          "Name": "label",
+          "Value": "thema/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4RWUXxztN6YVWWNlmZvnw/5rJGSiQBjVulfVJS8zzs="
+        }
+      ]
+    },
+    {
+      "Route": "thema/index.html",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4RWUXxztN6YVWWNlmZvnw/5rJGSiQBjVulfVJS8zzs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4RWUXxztN6YVWWNlmZvnw/5rJGSiQBjVulfVJS8zzs="
+        }
+      ]
+    },
+    {
+      "Route": "thema/js/scripts.6sm9j76k80.js",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lqo3ngqGYvYInvHyWctyi5qlYtMnAXuJ021uTr3Ev2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6sm9j76k80"
+        },
+        {
+          "Name": "label",
+          "Value": "thema/js/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lqo3ngqGYvYInvHyWctyi5qlYtMnAXuJ021uTr3Ev2U="
+        }
+      ]
+    },
+    {
+      "Route": "thema/js/scripts.js",
+      "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lqo3ngqGYvYInvHyWctyi5qlYtMnAXuJ021uTr3Ev2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 10:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lqo3ngqGYvYInvHyWctyi5qlYtMnAXuJ021uTr3Ev2U="
+        }
+      ]
+    },
     {
       "Route": "twitter-bootstrap/css/bootstrap.css",
       "AssetFile": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\twitter-bootstrap\\css\\bootstrap.css",

@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\thema\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\css\\styles.css",
+      "PackagePath": "staticwebassets\\thema\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\index.html",
+      "PackagePath": "staticwebassets\\thema\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\thema\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\thema\\js\\scripts.js"
+    },
+    {
       "Id": "C:\\Users\\gokhan\\Documents\\GitHub\\Employee-Tracking-Application\\TaskManagement\\TaskManagentment.UI\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.css"
     },

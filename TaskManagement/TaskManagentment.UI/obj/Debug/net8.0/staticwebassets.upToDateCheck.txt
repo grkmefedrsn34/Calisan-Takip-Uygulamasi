@@ -1,3 +1,7 @@
+wwwroot\thema\assets\favicon.ico
+wwwroot\thema\css\styles.css
+wwwroot\thema\index.html
+wwwroot\thema\js\scripts.js
 wwwroot\twitter-bootstrap\css\bootstrap.css
 wwwroot\twitter-bootstrap\css\bootstrap.css.map
 wwwroot\twitter-bootstrap\css\bootstrap.min.css
