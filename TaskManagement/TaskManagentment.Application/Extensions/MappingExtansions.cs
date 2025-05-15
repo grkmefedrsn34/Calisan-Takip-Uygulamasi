@@ -17,5 +17,13 @@ namespace TaskManagentment.Application.Extensions
                 UserName = request.Username,
             };
         }
+
+        public static Priority ToMap(this PriorityCreateRequest request)
+        {
+            return new Priority
+            {
+                Definition = request.Definition,
+            };
+        }
     }
 }

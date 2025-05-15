@@ -6,15 +6,15 @@ using System.Text;
 using System.Threading.Tasks;
 using TaskManagentment.Application.Request;
 
-namespace TaskManagentment.Application.Validation
+namespace TaskManagentment.Application.Validation.Account
 {
     public class LoginRequestValidation : AbstractValidator<AccountRequest>
     {
         public LoginRequestValidation()
         {
-            this.RuleFor(x => x.Username).NotEmpty()
+            RuleFor(x => x.Username).NotEmpty()
                 .WithMessage("Username is required");
-            this.RuleFor(x => x.Password).NotEmpty()
+            RuleFor(x => x.Password).NotEmpty()
                 .WithMessage("Password is required");
         }
     }
