@@ -4,6 +4,7 @@ using TaskManagentment.Application.Extensions;
 using TaskManagentment.Application.Interfaces;
 using TaskManagentment.Application.Request;
 using TaskManagentment.Application.Validation;
+using TaskManagentment.Application.Validation.Account;
 
 
 namespace TaskManagentment.Application.Handlers.Account

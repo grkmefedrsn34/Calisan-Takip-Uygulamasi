@@ -39,5 +39,10 @@ namespace TaskManagement.Persistance.Repository
         {
             return await this.Context.Priorities.AsNoTracking().SingleOrDefaultAsync(filter);
         }
+
+        public async Task<int> SaveChangeAsync()
+        {
+            return await this.Context.SaveChangesAsync();
+        }
     }
 }

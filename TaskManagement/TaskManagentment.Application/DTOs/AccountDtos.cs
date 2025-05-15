@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TaskManagentment.Application.Enums;
+﻿using TaskManagentment.Application.Enums;
 
 namespace TaskManagentment.Application.DTOs
 {
-    public record LoginResponseData(string Name, string Surname,RoleType role);
+    public record LoginResponseDto(string Name, string Surname, RoleType Role, int Id);
 }

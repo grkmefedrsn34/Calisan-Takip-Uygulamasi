@@ -1,58 +1,67 @@
-﻿@model TaskManagentment.Application.Request.AccountRequest
+﻿@model TaskManagentment.Application.Request.AccountRequest 
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = null;
 }
-
 <html>
-    <head>
+<head>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="~/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link href="~/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+
     <style>
         body {
-            font-family: 'Ubuntu', sans-serif;
+            font-family: "Source Sans 3", sans-serif;
+            font-optical-sizing: auto;
             font-weight: 400;
             font-style: normal;
         }
     </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="card p-5 mt-5 w-75 mx-auto shadow">
-            <div class="text-center mb-3">
-                <h4>CoBAC WorkSpace</h4>
+</head>
+<body>
+    <div class="container">
+        <div class="card p-5 mt-5 w-75 mx-auto shadow">
+            <div class="text-center">
                 <h5>Personel Yönetim Sistemi</h5>
-                <p class="lead"><i>Giriş Yap</i></p>
+                <p class="lead">
+                    <i> Giriş Ekranı</i>
+                </p>
             </div>
-            <form asp-action="Login" asp-controller="Account" asp-area=""  class="form-floating mt-3" method="post">
-                <div class="mb-3 form-floating">
-                    <input type="text" class="form-control" asp-for="Username" placeholder="User Name" />
-                    <label for="Username">Username</label>
+
+            <form asp-action="Login" asp-controller="Account" asp-area="" class="form-floating mt-3" method="post">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" asp-for="Username"  placeholder="">
+                    <label for="username">Kullanıcı Adı</label>
                 </div>
 
-                <div class="mb-3 form-floating">
-                    <input type="password" class="form-control" asp-for="Password" placeholder="Password" />
-                    <label for="Password">Password</label>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" asp-for="Password" placeholder="">
+                    <label for="password">Parola</label>
                 </div>
 
-                <div class="form-check mb-2">
-                    <input class="form-check-input" type="checkbox" checked="@Model.rememberMe" asp-for="rememberMe" />
-                    <label class="form-check-label" for="RememberMe">
-                        Remember me
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" checked="@Model.rememberMe" asp-for="rememberMe" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">
+                       Beni Hatırla
                     </label>
                 </div>
 
-                <div class="form-floating mb-3 d-grid gap-2">
-                    <button asp-action="Login" asp-controller="Account" class="btn btn-lg btn-primary" type="submit">Login</button>
-                    <button asp-action="Register" asp-controller="Account" class="btn btn-lg btn-info text-white" type="submit">Registar</button>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-lg btn-primary" type="submit">Giriş Yap</button>
+                    <a asp-action="Register" asp-controller="Account" class="btn btn-lg btn-info" >Kayıt Ol</a>
                 </div>
-                <div class="text-danger lead" asp-validation-summary="All">
+
+                <div asp-validation-summary="All" class="text-danger lead">
 
                 </div>
             </form>
-            </div> 
         </div>
-    </body>
+
+      
+    </div>
+
+</body>
 </html>

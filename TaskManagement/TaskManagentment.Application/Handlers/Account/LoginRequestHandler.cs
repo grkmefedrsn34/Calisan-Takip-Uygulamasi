@@ -5,10 +5,11 @@ using TaskManagentment.Application.Request;
 using TaskManagentment.Application.Validation;
 using TaskManagentment.Application.Extensions;
 using TaskManagentment.Application.Enums;
+using TaskManagentment.Application.Validation.Account;
 
 namespace TaskManagentment.Application.Handlers.Account
 {
-    public class LoginRequestHandler : IRequestHandler<AccountRequest, Response<LoginResponseData>>
+    public class LoginRequestHandler : IRequestHandler<AccountRequest, Response<LoginResponseDto>>
     {
         private readonly IUserRepository _userRepository;
 
@@ -17,30 +18,29 @@ namespace TaskManagentment.Application.Handlers.Account
             _userRepository = userRepository;
         }
 
-        public async Task<Response<LoginResponseData>> Handle(AccountRequest request, CancellationToken cancellationToken)
+        public async Task<Response<LoginResponseDto>> Handle(AccountRequest request, CancellationToken cancellationToken)
         {
             var validation = new LoginRequestValidation();
             var validationResult = await validation.ValidateAsync(request);
 
             if (validationResult.IsValid)
             {
-
-                var user = await _userRepository.GetByFilterAsync(x => x.Password == request.Password && x.UserName == request.Username);
-
-                
+                var user = await _userRepository.GetByFilterAsync(x =>
+                    x.Password == request.Password && x.UserName == request.Username);
 
                 if (user != null)
                 {
                     var type = (RoleType)user.AppRoleID;
-                    return new Response<LoginResponseData>(
-                        new LoginResponseData(user.Name, user.Surname, type),
+
+                    return new Response<LoginResponseDto>(
+                        new LoginResponseDto(user.Name, user.Surname, type, user.ID), // DÜZENLENEN SATIR
                         true,
                         null,
                         null);
                 }
                 else
                 {
-                    return new Response<LoginResponseData>(
+                    return new Response<LoginResponseDto>(
                         null,
                         false,
                         "User not found",
@@ -50,7 +50,7 @@ namespace TaskManagentment.Application.Handlers.Account
             else
             {
                 var errorList = validationResult.Errors.ToMap();
-                return new Response<LoginResponseData>(
+                return new Response<LoginResponseDto>(
                     null,
                     false,
                     null,

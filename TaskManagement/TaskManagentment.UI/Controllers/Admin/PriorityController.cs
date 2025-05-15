@@ -1,35 +1,40 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using TaskManagentment.Application.Request;
 
-namespace TaskManagentment.UI.Controllers.Admin
+namespace KahramanYazilim.TaskManagement.UI.Controllers.Admin
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
     public class PriorityController : Controller
     {
-        private readonly IMediator _mediator;
+        private readonly IMediator mediator;
+
         public PriorityController(IMediator mediator)
         {
-            _mediator = mediator;
+            this.mediator = mediator;
         }
+
         public async Task<IActionResult> List()
         {
-            var kar = await this._mediator.Send(new PriorityListRequest());
-            return View(kar.Data);
+            ViewBag.Active = "Priority";
+            var result = await this.mediator.Send(new PriorityListRequest());
+            return View(result.Data);
         }
+
         public IActionResult Create()
         {
+            ViewBag.Active = "Priority";
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Create(PriorityCreateRequest request)
         {
-            var result = await this._mediator.Send(request);
-            if(result.IsSuccess)
+            ViewBag.Active = "Priority";
+            var result = await this.mediator.Send(request);
+            if (result.IsSuccess)
             {
                 return RedirectToAction("List");
             }
@@ -37,39 +42,71 @@ namespace TaskManagentment.UI.Controllers.Admin
             {
                 if (result.Erorrs?.Count > 0)
                 {
-                    foreach (var erorrs in result.Erorrs)
+                    foreach (var error in result.Erorrs)
                     {
-                        ModelState.AddModelError(erorrs.PropertyName, erorrs.ErorrMessage);
+                        ModelState.AddModelError(error.PropertyName, error.ErorrMessage);
                     }
-                    
                 }
                 else
                 {
-                    ModelState.AddModelError("",result.ErrorMessage ?? "Bir hata oluştu");
+                    ModelState.AddModelError("", result.ErrorMessage ?? "Bilinmeyen bir hata oluştu, sistem üreticinize başvurun");
                 }
+
+                return View(request);
             }
-            return View(request);
+
         }
-            
+
         public async Task<IActionResult> Delete(int id)
-        {   
-                await this._mediator.Send(new PriorityDeleteRequest(id));
-                return RedirectToAction("List");
+        {
+            ViewBag.Active = "Priority";
+            await this.mediator.Send(new PriorityDeleteRequest(id));
+            return RedirectToAction("List");
+
         }
 
         public async Task<IActionResult> Update(int id)
         {
-            var result = await this._mediator.Send(new PriorityGetByIDRequest(id));
-            if(result.IsSuccess)
+            ViewBag.Active = "Priority";
+            var result = await this.mediator.Send(new PriorityGetByIDRequest(id));
+            if (result.IsSuccess)
             {
                 var requestModel = new PriorityUpdateRequest(result.Data.ID, result.Data.Definition);
-                return View(result.Data);
+                return View(requestModel);
             }
             else
             {
-                 ModelState.AddModelError("", result.ErrorMessage ?? "Bir hata oluştu");
-                var requestModel = new PriorityUpdateRequest(0,null);
+                ModelState.AddModelError("", result.ErrorMessage ?? "Bilinmeyen bir hata oluştu, sistem üreticinize başvurun");
+                var requestModel = new PriorityUpdateRequest(0, null);
                 return View(requestModel);
+            }
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(PriorityUpdateRequest request)
+        {
+            ViewBag.Active = "Priority";
+            var result = await this.mediator.Send(request);
+            if (result.IsSuccess)
+            {
+                return RedirectToAction("List");
+            }
+            else
+            {
+                if (result.Erorrs?.Count > 0)
+                {
+                    foreach (var error in result.Erorrs)
+                    {
+                        ModelState.AddModelError(error.PropertyName, error.ErorrMessage);
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("", result.ErrorMessage ?? "Bilinmeyen bir hata oluştu, sistem üreticinize başvurun");
+                }
+
+                return View(request);
             }
         }
     }
