@@ -34,11 +34,11 @@ namespace TaskManagentment.UI.Controllers.Account
             }
             else
             {
-                if (response.Erorrs != null && response.Erorrs.Count > 0)
+                if (response.Errors != null && response.Errors.Count > 0)
                 {
-                    foreach (var error in response.Erorrs)
+                    foreach (var error in response.Errors)
                     {
-                        ModelState.AddModelError(error.PropertyName, error.ErorrMessage);
+                        ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
                     }
                 }
                 else
@@ -66,11 +66,11 @@ namespace TaskManagentment.UI.Controllers.Account
             }
             else
             {
-                if (result.Erorrs != null && result.Erorrs.Count > 0)
+                if (result.Errors != null && result.Errors.Count > 0)
                 {
-                    foreach (var error in result.Erorrs)
+                    foreach (var error in result.Errors)
                     {
-                        ModelState.AddModelError(error.PropertyName, error.ErorrMessage);
+                        ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
                     }
                 }
                 else

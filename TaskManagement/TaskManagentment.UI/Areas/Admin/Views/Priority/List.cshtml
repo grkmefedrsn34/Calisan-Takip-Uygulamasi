@@ -1,7 +1,7 @@
 ﻿@model List<TaskManagentment.Application.DTOs.PriorityListDtos>
 
 @{
-    Layout = "~/shared/_AdminLayout.cshtml";
+    Layout = "~/Areas/Admin/Views/shared/_AdminLayout.cshtml";
     ViewBag.Title = "Aciliyet Listesi";
 }
 
@@ -25,8 +25,6 @@
                     <td>@item.Definition</td>
                     <td>
                         <a asp-action="Update" asp-controller="Priority" asp-area="Admin" asp-route-id="@item.ID" class="btn btn-sm btn-warning">Güncelle</a>
-                    </td>
-                    <td>
                         <a asp-action="Delete" asp-controller="Priority" asp-area="Admin" asp-route-id="@item.ID" class="btn btn-sm btn-danger">Sil</a>
                     </td>
                 </tr>

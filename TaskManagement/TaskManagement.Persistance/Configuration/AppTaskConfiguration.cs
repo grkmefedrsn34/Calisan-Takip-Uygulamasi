@@ -14,7 +14,7 @@ namespace TaskManagement.Persistance.Configuration
         public void Configure(EntityTypeBuilder<AppTask> builder)
         {
             builder.Property(x => x.PriorityID).IsRequired(true);
-            builder.Property(x=>x.AppUserID).IsRequired(true);
+            builder.Property(x=>x.AppUserID).IsRequired(false);
 
             builder.Property(x=>x.Description).IsRequired(true);
             builder.Property(x => x.Description).HasMaxLength(500);

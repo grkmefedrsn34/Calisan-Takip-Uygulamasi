@@ -40,11 +40,11 @@ namespace KahramanYazilim.TaskManagement.UI.Controllers.Admin
             }
             else
             {
-                if (result.Erorrs?.Count > 0)
+                if (result.Errors?.Count > 0)
                 {
-                    foreach (var error in result.Erorrs)
+                    foreach (var error in result.Errors)
                     {
-                        ModelState.AddModelError(error.PropertyName, error.ErorrMessage);
+                        ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
                     }
                 }
                 else
@@ -94,11 +94,11 @@ namespace KahramanYazilim.TaskManagement.UI.Controllers.Admin
             }
             else
             {
-                if (result.Erorrs?.Count > 0)
+                if (result.Errors?.Count > 0)
                 {
-                    foreach (var error in result.Erorrs)
+                    foreach (var error in result.Errors)
                     {
-                        ModelState.AddModelError(error.PropertyName, error.ErorrMessage);
+                        ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
                     }
                 }
                 else

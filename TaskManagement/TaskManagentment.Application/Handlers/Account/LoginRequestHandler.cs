@@ -32,8 +32,10 @@ namespace TaskManagentment.Application.Handlers.Account
                 {
                     var type = (RoleType)user.AppRoleID;
 
+                    var loginDto = new LoginResponseDto(user.Name, user.Surname, type, user.ID);
+
                     return new Response<LoginResponseDto>(
-                        new LoginResponseDto(user.Name, user.Surname, type, user.ID), // DÜZENLENEN SATIR
+                        loginDto,
                         true,
                         null,
                         null);

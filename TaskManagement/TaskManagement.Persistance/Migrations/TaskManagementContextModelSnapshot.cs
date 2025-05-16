@@ -47,7 +47,7 @@ namespace TaskManagement.Persistance.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("AppUserID")
+                    b.Property<int?>("AppUserID")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -191,9 +191,7 @@ namespace TaskManagement.Persistance.Migrations
                 {
                     b.HasOne("TaskManagetment.Domain.Entities.AppUser", "AppUser")
                         .WithMany("AppTasks")
-                        .HasForeignKey("AppUserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AppUserID");
 
                     b.HasOne("TaskManagetment.Domain.Entities.Priority", "Priority")
                         .WithMany("AppTasks")

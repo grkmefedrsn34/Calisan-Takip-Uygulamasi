@@ -27,6 +27,7 @@ namespace TaskManagement.Persistance.Configuration
             builder.Property(x => x.UserName).HasMaxLength(100);
 
             builder.Property(x => x.AppRoleID).IsRequired(true);
+
             builder.HasMany(x => x.AppTasks).WithOne(x => x.AppUser).HasForeignKey(x => x.AppUserID);
             builder.HasMany(x => x.Notfications).WithOne(x => x.AppUser).HasForeignKey(x => x.AppUserID);
         }

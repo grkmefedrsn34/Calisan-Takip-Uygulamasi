@@ -3,9 +3,7 @@ using TaskManagentment.Application.DTOs;
 using TaskManagentment.Application.Extensions;
 using TaskManagentment.Application.Interfaces;
 using TaskManagentment.Application.Request;
-using TaskManagentment.Application.Validation;
 using TaskManagentment.Application.Validation.Account;
-
 
 namespace TaskManagentment.Application.Handlers.Account
 {
@@ -17,6 +15,7 @@ namespace TaskManagentment.Application.Handlers.Account
         {
             _userRepository = userRepository;
         }
+
         public async Task<Response<NoData>> Handle(RegistarRequest request, CancellationToken cancellationToken)
         {
             var validation = new RegistarRequestValidation();
@@ -27,17 +26,29 @@ namespace TaskManagentment.Application.Handlers.Account
                 var result = await _userRepository.CreateUserAsync(request.ToMap());
                 if (result > 0)
                 {
-                    return new Response<NoData>(new NoData(), true, null, null);
+                    return new Response<NoData>(
+                        new NoData(),
+                        true,
+                        null,
+                        null);
                 }
                 else
                 {
-                    return new Response<NoData>(new NoData(), false, "User not created", null);
+                    return new Response<NoData>(
+                        new NoData(),
+                        false,
+                        "User not created",
+                        null);
                 }
             }
             else
             {
                 var errorList = validationResult.Errors.ToMap();
-                return new Response<NoData>(new NoData(), false, null, errorList);
+                return new Response<NoData>(
+                    new NoData(),
+                    false,
+                    null,
+                    errorList);
             }
         }
     }

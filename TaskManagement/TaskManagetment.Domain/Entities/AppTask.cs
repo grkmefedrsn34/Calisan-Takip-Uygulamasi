@@ -10,7 +10,7 @@ namespace TaskManagetment.Domain.Entities
     {
         public string Title { get; set; } = null!;
         public string? Description { get; set; } = null!;
-        public int AppUserID { get; set; }
+        public int? AppUserID { get; set; }
         public int PriorityID { get; set; }
         //LookUp
         public bool State { get; set; }
