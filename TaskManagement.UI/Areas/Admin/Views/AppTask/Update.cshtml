@@ -1,0 +1,43 @@
+﻿@model AppTaskUpdateRequest
+@{
+    Layout = "_AdminLayout";
+    ViewBag.Title = "İş Emri Detay Ekranı";
+}
+
+<form asp-action="Update" asp-controller="AppTask" asp-area="Admin" method="post">
+
+    <div class="mb-3">
+        <label class="form-label">  Başlık :</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">  Açıklama :</label>
+        <textarea asp-for="Description" class="form-control">
+            </textarea>
+    </div>
+
+
+    <div class="mb-3">
+        <label>Öncelik :</label>
+        <select class="form-control" asp-for="PriorityId" asp-items="@ViewBag.Priorities">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Personel :</label>
+        <select class="form-control" asp-for="AppUserId" asp-items="@ViewBag.Members">
+        </select>
+    </div>
+
+
+    <div class="mb-3">
+        <a asp-action="List" asp-controller="AppTask" asp-area="Admin" class="btn btn-secondary">Vazgeç</a>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+
+    <div asp-validation-summary="All" class="text-danger">
+    </div>
+</form>
+
+@await Component.InvokeAsync("TaskReports", new { @appTaskId = @Model.Id })
